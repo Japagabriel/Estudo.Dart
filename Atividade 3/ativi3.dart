@@ -1,17 +1,16 @@
-void main(){
-  saudacoes("Gabriel Wallace", sep: "*");
+void main() {
+  funcao('Olá', null, e: null, d: "Força!");
 }
+/// resumo sobre parâmetros
 
-void saudacoes (String nome, {bool mostrar = true , sep = '-'}){
-  print(sep * 20);
-  print(" Olá, eu sou $nome.");
-  print(" Seja muito bem-vindo(a)!!");
-  if (mostrar){
-    print("Horário: ${dateTime()}");
+void funcao(
+  String a,          // variáveis posicionais, onde exige ser informada na sua própria posição no parâmentro. 
+  String? b,
+  {
+    String? c,
+    required String d, // quando se exige uma requirição 'required' no início, mesmo em uma variável nomeada optativa, necessita de atribuir o valor
+    required String? e,
   }
-}
-
-String dateTime(){
-  DateTime date = DateTime.now();
-  return date.toString();
+  ){
+  print("$a, $b, $c, $d, $e ");
 }
