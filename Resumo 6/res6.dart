@@ -10,10 +10,12 @@ void main() {
   print(numero);
   List<String> palavras = ["Amarelo","Rosa","Balão"];
   print(palavras);
+  palavras.removeWhere((element) => element != 'Rosa');
+  print(palavras);
   ///caso queira fazer alguma operação com a lista, basta passar o parametro junto com a ]
   ///lista desejada.
   print(numero.length);
-  print(palavras.first);
-  print(palavras.last);
+  //print(palavras.first);
+  //print(palavras.last);
   print(numero[1]);
 }
