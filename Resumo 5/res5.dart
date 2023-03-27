@@ -1,7 +1,7 @@
 void main() {
   /// tipo 'var' irá identificar que valor tem uma variável específica sem você saber que valor ela tem.
   ///  exemplo:
-  /// 
+  ///   
   var nome = "Daniel";     // ela identificou automáticamente que é uma String
   nome = "Italo";          // alterou o valor da estring
   ///  mas se você fizer :

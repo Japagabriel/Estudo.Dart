@@ -30,9 +30,9 @@ void main() {
   /// 
   /// int funcao(int pos){
   ///   retur 10;
-  /// }
+  /// } 
   ///  ou por função fantasma
   /// 
   /// List<int> doida = List.generate (10, (i) => i*10);
-  /// 
+  /// ================================================================
 }

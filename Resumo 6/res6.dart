@@ -4,7 +4,7 @@ void main() {
   print(nome);
   /// Vejamos que no exemplo acima podemos declarar uma lista com os mais
   /// variádos valores, porém se desejarmos criar uma lista que receba só
-  /// um tipo de valor deve-se utilizar o '<>' após chamar o 'List' e por 
+  /// um tipo de valor deve-se utilizar o '<>' após chamar o 'List' e por    
   /// dentro do '<>' o tipo de valor desejado.
   List<num> numero = [10,10.9,12];
   print(numero);
