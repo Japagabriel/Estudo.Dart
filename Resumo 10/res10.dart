@@ -1,8 +1,8 @@
 import 'dart:convert';
-///                   Resumo da utilização de arquivos json
+///                     Resumo da utilização de arquivos json
 void main() {
   Map<String, dynamic> dados = json.decode(dadosUser());
-  print(dados["cursos"][0]["dificuldade"]);
+  print(dados["sobrenome"]);
 
 
 }
