@@ -3,7 +3,7 @@ void main(){
   String msg = nota < 3.0 ? "Reprovado": "Em Recuperação"; // operador ternário '?'
   if (nota >=6.0 ){
       print("Aprovado");
-  }else{
+  }else{ 
     print(msg);    
 }
   }

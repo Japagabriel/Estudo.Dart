@@ -16,7 +16,7 @@ void main() {
   }catch(e){                         // se não for o tipo de problema tratado anteriormente, 
     print(e);                        //ele vai retornar os tipos de erro.
   }finally{
-    print("good bye.");
+    print("good bye."); 
   }
 }
 

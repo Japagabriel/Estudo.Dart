@@ -4,7 +4,7 @@ void main() {
 /// resumo sobre parâmetros
           
 void funcao(
-  String a,          // variáveis posicionais, onde exige ser informada na sua própria posição no parâmentro. 
+  String a,           // variáveis posicionais, onde exige ser informada na sua própria posição no parâmentro. 
   String? b,
   {
     String? c,

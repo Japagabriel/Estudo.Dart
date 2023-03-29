@@ -7,7 +7,7 @@ void main() {
   ///  mas se você fizer :
   ///  nome = 3;      // irá acusar o erro, por ela só pode receber o valor do mesmo tipo.
   /// resumindo, serve para quase porra nenhuma, evite de usar mano.
-  /// 
+  ///  
   /// tipo 'dynamic' ajuda bastante para declarar uma única variável e poder alterar seu valor 
   /// por qualquer tipo de valor bool, int, double, String, etc...
   dynamic vari = "Daniel";
