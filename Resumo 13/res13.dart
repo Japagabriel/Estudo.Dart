@@ -7,7 +7,7 @@ void main() {
 
 class estado {
   dynamic mensagem (int x){
-    if( x == 0){
+    if( x == 0){ 
       return print("Esse é o estado ${StatusPagamento.values[x]}");
     }else if( x== 1){
       return print("Esse é o estado ${StatusPagamento.values[x]}");
